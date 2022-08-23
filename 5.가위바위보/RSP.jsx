@@ -11,7 +11,7 @@ const scores = {
   바위: 0,
   보: -1,
 };
-
+//Object.entries(rspCoords) => [['바위' ,'0'],[ '가위', '-142px'],['보', '-284px']]
 const computerChoice = (imgCoord) => {
   return Object.entries(rspCoords).find(function(v) {
     return v[1] === imgCoord;

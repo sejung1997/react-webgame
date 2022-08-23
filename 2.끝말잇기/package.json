@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "webpack serve --env development"
+    "dev": "webpack-dev-server --hot"
   },
   "author": "ZeroCho",
   "license": "ISC",
@@ -21,6 +21,6 @@
     "react-refresh": "^0.11.0",
     "webpack": "^5.3.2",
     "webpack-cli": "^4.1.0",
-    "webpack-dev-server": "^4.0.0"
+    "webpack-dev-server": "^4.10.0"
   }
 }
