@@ -1,22 +1,24 @@
-import React, { memo } from 'react';
+import React, { memo } from "react";
 
 const Ball = memo(({ number }) => {
   let background;
   if (number <= 10) {
-    background = 'red';
+    background = "red";
   } else if (number <= 20) {
-    background = 'orange';
+    background = "orange";
   } else if (number <= 30) {
-    background = 'yellow';
+    background = "yellow";
   } else if (number <= 40) {
-    background = 'blue';
+    background = "blue";
   } else {
-    background = 'green';
+    background = "green";
   }
 
   return (
-    <div className="ball" style={{ background }}>{number}</div>
-  )
+    <div className="ball" style={{ background }}>
+      {number}
+    </div>
+  );
 });
 
 export default Ball;
